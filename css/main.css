@@ -1,0 +1,403 @@
+/*
+Style Name: CSS
+Description: FIP- Love to Serve
+Author: Mamatha Vaidehi
+Version: 1.0
+Tags: FIP
+*/
+
+
+/*---------box models----------*/
+.box-model {
+    margin: 4em ;
+    padding: 1.5em ;
+    background: #EA8C8C;
+    width: 35em;
+    border: black 1px solid;
+ }
+ .box-model-foot {
+    margin: 2em 0em;
+    padding: 2em;
+    background: #EA8C8C;
+ }
+ .box-model2 {
+    margin: 0em;
+    padding: 2em 30em;
+    background: #ffd20c;
+ }
+ .box-model3 {
+    margin: 0em;
+    padding: 2em 3em;
+    background: #ECE829;
+ }
+ 
+  .outer-box {
+    border: 1px black solid;
+    margin:2em;
+ }
+ .submission-box {
+    margin-left: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right: 1em; 
+    height: 3em;
+    width: 90em;
+    padding: .5em;
+    border: 1px black solid;
+ }
+ .send-box {
+    padding: 1em;
+    width: 7em;
+    border-radius: 1.5em;
+    background-color: #EA8C8C;
+    font-weight: bold;
+    margin: 1em;
+ 
+ }
+ 
+ .heading-box {
+    background-color: rgb(20, 34, 91, 0.7); /*--main nav box--*/
+    color: white;
+    padding: 1em;
+    width:13em;
+ 
+    position: absolute;
+    top: 25em;
+    left:20em;
+ }
+ 
+ .featured-box {
+    background-color: #E9E475;
+    padding: 1em;
+    border-radius: 2em;
+    border: black 3px solid;
+    width:10em;
+    height: 7em;
+    position: absolute;
+    top: 11em;
+    right:6em;
+ }
+ /*---------end box models----------*/
+ 
+ 
+ 
+ .container{
+   max-width: 1364px;
+   margin-left: 10em;
+  
+ }
+ body {
+     font-family:Verdana/*, Geneva, Tahoma, sans-serif1*/;
+     }
+ 
+ p  {
+     color:black;
+     font-size: 34px;
+     margin-top: 1em;
+    }
+ 
+ section nav p {
+    font-size: x-large;
+    font-weight: bold;
+ 
+ }  
+ 
+ .mainnav{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+   justify-content: space-between;
+ }
+ 
+ .logo {
+    width: 25em;
+    height: 10em;
+ }
+ .mainnav a {
+    margin-left: 3em ;
+    color: black;
+    text-decoration: none;
+ }
+ .border img {
+    border: black 3px solid;
+ }
+ 
+ /*-----elip dist---*/
+ .elip-name-dist1 {
+    margin-left: 4em;
+ }
+ .elip-name-dist2 {
+    margin-left: 5.5em;
+ }
+ 
+ 
+ 
+ /*------rating stars-----*/
+ .star-size {
+    font-size: 4em;
+ }
+ .rated {
+    color: rgb(242, 225, 11);
+ }
+ .rate-blue {
+   color:#2E3192;
+ }
+ /*------end rating stars-----*/
+ 
+ 
+ /*------positions-------*/
+ 
+ .main {
+    margin-top: 80px ;
+ }
+ .absolute-left {
+    position: absolute;
+    left: 10em;
+    right: 10em;
+    top: 33em;
+ }
+ 
+ .elipse-pos {
+    
+    position: relative;
+    margin-right:60px;
+ }
+ 
+ .allignhr {
+ position: absolute;
+ top: 2em;
+ left: 5em;
+ width: 500px;
+ color: #000;
+ }
+ 
+ .allignhr2 {
+ position: absolute;
+ top: 2em;
+ right: 5em;
+ width: 500px;
+ color: #000;
+ }
+ .centre {
+   text-align: center;
+ }
+ 
+ .allign-left {
+    display: flex;
+    justify-content: flex-start;
+ }
+ 
+ /*------end positions-----*/
+ 
+ 
+ /*-------font--------*/
+    .bold {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 60px;
+       font-weight: bold;
+       letter-spacing: 0.1em;
+       text-align: center;
+    }
+ 
+    .bold-elip {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 36px;
+       font-weight: bold;
+       margin-left: 1em;
+      
+    }
+    .title {
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 45px;
+    }
+ 
+    .quote{
+       letter-spacing: 1em;
+       font-weight: bold;
+     
+    }
+    .quote2 {
+       letter-spacing: .5em;
+       font-weight: bold;
+     
+    }
+   
+ /*--------end font-----------*/
+ 
+ 
+ 
+ /*--------margin-----*/
+ .margin-left {
+    margin-top: 1em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+ }
+ 
+ .faq-ans {
+    margin-left: 2em;
+    font-size: 25px;
+ }
+ .right {
+    margin-left:80em;
+   
+ }
+ /*--------end margin------*/
+ 
+ /*------------------------------
+ 
+ GRID
+ 
+ -------------------------------*/
+ 
+ .head, .intro, .main > *, .foot{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr ;
+ }
+ 
+ .one-item{
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: 1fr;     /*60 em*/
+    
+ 
+ }
+ 
+ .two-items {
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-template-columns: repeat( 2, 1fr);
+    justify-content: space-evenly;
+    column-gap: 1em;
+    row-gap: 1em;
+ }
+ 
+ .three-items{
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    column-gap: 1em;
+    row-gap: 1em;
+ 
+ }
+ 
+ .four-items{
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-template-columns: repeat( 4, 1fr);
+    justify-content: space-evenly;
+    column-gap: 1em;
+    row-gap: 1em;
+ }
+ .logog{
+    grid-column: 1 / span 1;
+ }
+ 
+ .mainnavg{
+    grid-column: 2 / span 3;
+ }
+ 
+ /* -------hero-img---------*/
+ 
+ .hero {
+    margin: 0 0;
+ }
+ 
+ .hero-img img {
+    width: 100%;
+    border: black solid 3px;
+ }
+ 
+ .hero2-img img {
+    width: 95em;
+    height:30em;
+    border: black solid 3px;
+ }
+ .hero2-pos {
+    position: absolute;
+    left: 20em;
+    top: 15em;
+ }
+ .hero3-img img {
+    width: 100%;
+    height: 500px;
+    border: black solid 3px;
+ }
+ .footer-hero-pos {
+   
+  position: absolute;
+  left: 19em;
+   
+    
+ }
+ .footer-hero-img img {
+    width: 95em;
+    height:30em;
+    border: black solid 3px;
+    margin:1em;
+ }
+ 
+ 
+ /*------------end hero img-----------------*/
+ 
+ 
+ /*------vertical lines-----*/
+   
+ .vline {
+    height: 15em;
+    width: 1px;
+ 
+ } 
+ 
+ 
+ /*------end food photos-----*/
+ /*------recipe page-----*/
+  .recipes {
+     margin: 2em;
+     border: palegreen solid 5px;
+     padding: 2em;
+     column-gap: 2em;
+  }
+ 
+  .recipes p {
+     font-size: 25px;
+     font-style: italic;
+  }
+  .recipes span {
+     font-weight: bold;
+  }
+  .recipes img {
+     border: black 3px solid;
+  }
+ 
+ 
+ 
+ /*------end recipe page-----*/
+ 
+ /*----icons---*/
+ .mail {
+    width: 70px;
+    height: 44px ;
+    margin:1em;
+ }
+ 
+ .fb {
+    width: 65px ;
+    height:55px ;
+    margin:1em;
+ 
+ }
+ 
+ .ytb {
+    width: 70px ;
+    height: 50px;
+    margin:1em;
+ 
+ }
+ 
+ .insta {
+    width: 65px;
+    height: 69px;
+    margin:1em;
+ }
+ /*----end icons----*/
