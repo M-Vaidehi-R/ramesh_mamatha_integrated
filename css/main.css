@@ -80,7 +80,7 @@ Tags: FIP
  /*---------end box models----------*/
  
  
- 
+ /*-------global-----*/
  .container{
    max-width: 1364px;
    margin-left: 10em;
@@ -122,6 +122,10 @@ Tags: FIP
     border: black 3px solid;
  }
  
+ /*----end global----*/
+
+
+
  /*-----elip dist---*/
  .elip-name-dist1 {
     margin-left: 4em;
@@ -129,8 +133,10 @@ Tags: FIP
  .elip-name-dist2 {
     margin-left: 5.5em;
  }
+  /*-----end elip dist---*/
  
- 
+
+
  
  /*------rating stars-----*/
  .star-size {
@@ -145,6 +151,9 @@ Tags: FIP
  /*------end rating stars-----*/
  
  
+
+
+
  /*------positions-------*/
  
  .main {
@@ -190,6 +199,8 @@ Tags: FIP
  /*------end positions-----*/
  
  
+
+
  /*-------font--------*/
     .bold {
        font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -243,11 +254,9 @@ Tags: FIP
  }
  /*--------end margin------*/
  
- /*------------------------------
+ /*------------------------------*/
  
  GRID
- 
- -------------------------------*/
  
  .head, .intro, .main > *, .foot{
     display: grid;
@@ -297,6 +306,10 @@ Tags: FIP
     grid-column: 2 / span 3;
  }
  
+ /* -------end grid---------*/
+
+
+
  /* -------hero-img---------*/
  
  .hero {
@@ -348,9 +361,11 @@ Tags: FIP
     width: 1px;
  
  } 
- 
- 
- /*------end food photos-----*/
+
+
+
+
+
  /*------recipe page-----*/
   .recipes {
      margin: 2em;
